@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_f8f8f8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvReport"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/color_ffffff"
+            android:gravity="center"
+            android:text="@string/text_report"
+            android:textColor="@color/color_333333"
+            android:textSize="18sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_e8e8e8"/>
+
+        <TextView
+            android:id="@+id/tvKickOut"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/color_ffffff"
+            android:gravity="center"
+            android:text="@string/text_kick_out"
+            android:textColor="@color/color_333333"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_ffffff"
+            android:gravity="center"
+            android:text="@string/text_cancel"
+            android:textColor="@color/color_e74c3c"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</RelativeLayout>
